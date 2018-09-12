@@ -1,0 +1,140 @@
+body {
+  background-color: #000;
+}
+.first-page {
+  background-color: #9900CC;
+}
+.second-page {
+  background-color: #0033CC;
+}
+.third-page {
+  background-color: #990000;
+}
+.fourth-page {
+  background-color: #FF0000;
+}
+.fifth-page {
+  background-color: #FFCC00;
+}
+
+.wolrd img {
+  max-width: 1200px;
+}
+
+.wolrd h1 {
+  font-family: Arial;
+  color: white;
+}
+
+.video{
+ position:absolute;
+ top: 0px;
+ left: 0px;
+}
+
+.nav:hover{
+background-color: transparent;
+z-index: 0;
+}
+
+.nav span{ /*CSS for enlarged image*/
+position: absolute;
+padding: 0px;
+border: 0px;
+visibility: hidden;
+color: white;
+text-decoration: none;
+z-index: 0;
+}
+
+.nav span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 0px;
+z-index: 0;
+}
+
+.nav:hover span{ /*CSS for enlarged image on hover*/
+position: absolute;
+z-index: 0;
+left: 0px;
+visibility: visible;
+}
+
+.blog{
+ position:absolute;
+ top: 0px;
+ left: 200px;
+}
+
+.shop{
+ position:absolute;
+ top: 0px;
+ left: 400px;
+}
+
+.teachers{
+ position:absolute;
+ top: 0px;
+ left: 600px;
+}
+
+.about{
+ position:absolute;
+ top: 0px;
+ left: 800px;
+}
+
+
+.image-one {
+ position: absolute;
+ top: 25px;
+ left: 0px;
+}
+
+.image-nav:hover{
+background-color: transparent;
+z-index: 0;
+}
+
+.part { /*Hides Image Part Class*/
+position: absolute;
+top: 325px;
+left: 0px;
+padding: 0px;
+border: 0px;
+visibility: hidden;
+color: white;
+text-decoration: none;
+z-index: 0;
+}
+
+.image-nav:hover .part { /*CSS for enlarged image on hover*/
+position: fixed;
+left: 0px;
+top: 350px;
+visibility: visible;
+}
+
+.image-two {
+ position: absolute;
+ top: 25px;
+ left: 200px;
+}
+
+.image-three {
+ position: absolute;
+ top: 25px;
+ left: 400px;
+}
+
+.image-four {
+ position: absolute;
+ top: 25px;
+ left: 600px;
+}
+
+.image-five {
+ position: absolute;
+ top: 25px;
+ left: 800px;
+}

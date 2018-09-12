@@ -1,0 +1,38 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85908120-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85908120-2');
+  </script>
+
+  {% if page.title %}
+    <title>{{ page.title }}</title>
+  {% else %}
+    <title>{{ site.title }}</title>
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.title %}
+    <meta property="og:title" content="{{ page.title }} | Test Page"/>
+  {% else %}
+    <meta property="og:title" content="{{ site.title }}"/>
+  {% endif %}
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}"/>
+  {% else %}
+    <meta property="og:description" content=" {{ site.description }}"/>
+  {% endif %}
+
+<!--   <link href="/favicon.png" rel="icon"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
